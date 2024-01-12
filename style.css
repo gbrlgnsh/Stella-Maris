@@ -1,0 +1,56 @@
+body {
+    background-color: purple;
+    margin: 0px;
+}
+
+header {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-header {
+    color: purple;
+    padding-left: 150px;
+
+nav {
+    padding-right: 150;
+}
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: grey;
+    padding: 6px 20px 6px 20px;
+    border-radius: 8px
+}
+.hero {
+    font-size: 90%;
+    color: whitesmoke;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#About {
+    width: 100%;
+    color: purple;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#About h1 {
+    text-align: center;
+    color: black;
+}
